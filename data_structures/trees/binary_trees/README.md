@@ -56,4 +56,10 @@ def dfs(node):
         # do some logic
         return
     ```
+## BFS
+    In DFS, we prioritized depth. In breadth-first search (BFS), we prioritize breadth. Recall that a node's depth is its distance from the root. In DFS, we always tried to go down as far as we could, increasing the depth of the current node until we reached a leaf.
+    In BFS, we traverse all nodes at a given depth before moving on to the next depth.
 
+    While DFS was implemented using a stack (recursion uses a stack under the hood), BFS is implemented iteratively with a queue. You can implement BFS with recursion, but it wouldn't make sense as it's a lot more difficult without any benefit. As such, we will look only at iterative implementations.
+
+    
